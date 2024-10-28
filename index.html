@@ -4,75 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
     <title>Youtube</title>
 </head>
 <body>
     <header>
         <div class="left-section">
-            <i class="material-icon logo">menu</i>
+            <button id="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
             <img src="images/youtube-logo.png" alt="">
         </div>
         <div class="mid-section">
             <form action="">
                 <input type="text" placeholder="Search">
-                <button><i class="material-icons">search</i></button>
+                <button><i class="fa-solid fa-magnifying-glass "></i></button>
             </form>
-            <i class="material-icons mic">x</i>
+            <i class="fa-solid fa-microphone  mic"></i>
         </div>
         <div class="right-section">
-            <a href="#"><i class="material-icons">x</i></a>
-            <a href="#"><i class="material-icons">x</i></a>
-            <a href="#"><i class="material-icons">x</i></a>
-            <a href="#"><i class="material-icons">x</i></a>
+            <a href="#"><i class="fa-solid fa-video "></i></a>
+            <a href="#"><i class="fa-solid fa-grip-vertical "></i></a>
+            <a href="#"><i class="fa-solid fa-bell "></i></a>
+            <a href="#"><i class="fa-solid fa-circle-user "></i></a>
         </div>
     </header>
 
     <div class="content-area">
-        <aside>
+        <aside id="sidebar">
             <nav>
                 <a href="#" class="nav-link active">
-                    <i class="material-icons">x</i>
+                    <i class="fa-solid fa-house"></i>
                     <span id="active-span">Home</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-brands fa-wpexplorer"></i>
                     <span>Explore</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-video"></i>
                     <span>Subscriptions</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-reply"></i>
                     <span>Originals</span>
                 </a>
                 
                 <hr>
 
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-photo-film"></i>
                     <span>Library</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
                     <span>History</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-file-video"></i>
                     <span>Your Video</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-regular fa-clock"></i>
                     <span>Watch later</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-download"></i>
                     <span>Downloads</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <i class="material-icons-outlined">x</i>
+                    <i class="fa-solid fa-thumbs-up"></i>
                     <span>Liked videos</span>
                 </a>
 
@@ -80,32 +82,24 @@
 
                 <p>Subscriptions</p>
                 <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
+                    <img class="channel-img" src="images/favicon.ico">
+                    <span>Programming</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
+                    <img class="channel-img" src="images/favicon.ico">
+                    <span>Programming</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
+                    <img class="channel-img" src="images/favicon.ico">
+                    <span>Programming</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
+                    <img class="channel-img" src="images/favicon.ico">
+                    <span>Programming</span>
                 </a>
                 <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
-                </a>
-                <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
-                </a>
-                <a href="#" class="nav-link">
-                    <img class="channel-img" src="images/profile-pic.jpg">
-                    <span>Luffy</span>
+                    <img class="channel-img" src="images/favicon.ico">
+                    <span>Programming</span>
                 </a>
             </nav>
         </aside>
@@ -118,7 +112,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -138,7 +132,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -158,7 +152,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -178,7 +172,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -198,7 +192,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -218,7 +212,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -238,7 +232,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -258,7 +252,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -278,7 +272,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -298,7 +292,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -318,7 +312,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -338,7 +332,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -358,7 +352,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -378,7 +372,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -398,7 +392,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -418,7 +412,7 @@
                     </div>
                     <div class="video-details">
                         <div class="creator-img">
-                            <img src="images/profile-pic.jpg" alt="">
+                            <img src="images/luffy.png" alt="">
                         </div>
                         <div class="title">
                             <a href="#" class="video-title">
@@ -435,5 +429,6 @@
                 
         </main>
     </div>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>

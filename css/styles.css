@@ -264,3 +264,6 @@ aside {
     transform: translateX(0); /* Show sidebar */
   }
 }
+p {
+  background-color: red;
+}

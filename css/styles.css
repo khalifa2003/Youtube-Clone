@@ -254,9 +254,13 @@ main {
   }
 }
 aside {
-  transform: translateX(-100%);
+  transform: translateX(-100%); /* Hide sidebar */
   transition: transform 0.3s ease;
 }
-aside.active {
-  transform: translateX(0);
+
+/* Sidebar visible on larger screens (768px and up) */
+@media (min-width: 768px) {
+  aside {
+    transform: translateX(0); /* Show sidebar */
+  }
 }

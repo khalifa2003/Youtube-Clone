@@ -11,7 +11,6 @@ function toggleSidebar() {
 // Event listener for menu button
 document.getElementById("menu-bar").addEventListener("click", toggleSidebar);
 
-// Optional: Close sidebar if window is resized to larger than 768px
 window.addEventListener("resize", function () {
   const sidebar = document.getElementById("sidebar");
 

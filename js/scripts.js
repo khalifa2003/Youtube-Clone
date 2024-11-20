@@ -12,8 +12,8 @@ function toggleSidebar() {
 document.getElementById("menu-bar").addEventListener("click", toggleSidebar);
 
 window.addEventListener("resize", function () {
+  
   const sidebar = document.getElementById("sidebar");
-
   // Automatically show sidebar if screen is resized to larger than 768px
   if (window.innerWidth >= 768) {
     sidebar.classList.remove("active");
